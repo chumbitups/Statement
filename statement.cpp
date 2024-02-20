@@ -8,7 +8,6 @@ struct statement
     std::string surname = "";
     std::string date = "";
     int money = 0;
-    int money2 = 0;
 };
 
 void add(statement &client, std::vector<statement> &clients)
